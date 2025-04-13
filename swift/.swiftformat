@@ -5,6 +5,7 @@
 --enable applicationMain
 --enable assertionFailures
 --enable blankLineAfterImports
+--enable blankLineAfterSwitchCase
 --enable blankLinesAroundMark
 --enable blankLinesAtEndOfScope
 --enable blankLinesAtStartOfScope
@@ -16,7 +17,9 @@
 --enable conditionalAssignment
 --enable consecutiveBlankLines
 --enable consecutiveSpaces
+--enable consistentSwitchCaseSpacing
 --disable docComments
+--enable docCommentsBeforeModifiers
 --enable duplicateImports
 --enable elseOnSameLine
 --elseposition same-line
@@ -50,9 +53,11 @@
 --marktypes always
 --markextensions always
 --enable modifierOrder
+--disable noExplicitOwnership
 --enable numberFormatting
 --enable opaqueGenericParameters
 --disable organizeDeclarations
+--enable preferForLoop
 --enable preferKeyPath
 --enable redundantBackticks
 --enable redundantBreak
@@ -65,16 +70,20 @@
 --enable redundantLet
 --enable redundantLetError
 --enable redundantNilInit
+--nilinit insert
 --enable redundantObjc
 --enable redundantOptionalBinding
 --enable redundantParens
 --enable redundantPattern
+--enable redundantProperty
 --enable redundantRawValues
 --enable redundantReturn
 --enable redundantSelf
 --self insert
+--enable redundantStaticSelf
 --enable redundantType
 --redundanttype explicit
+--enable redundantTypedThrows
 --enable redundantVoidReturnType
 --closurevoid remove
 --enable semicolons
@@ -106,6 +115,7 @@
 --shortoptionals always
 --enable unusedArguments
 --stripunusedargs always
+--enable unusedPrivateDeclarations
 --enable void
 --enable wrap
 --maxwidth 120
@@ -126,6 +136,7 @@
 --enable wrapConditionalBodies
 --enable wrapEnumCases
 --wrapenumcases with-values
+--enable wrapLoopBodies
 --enable wrapMultilineStatementBraces
 --enable wrapSingleLineComments
 --disable wrapSwitchCases
