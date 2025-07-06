@@ -1,4 +1,4 @@
---swiftversion 6
+--swiftversion 6.1
 --enable acronyms
 --disable andOperator
 --enable anyObjectProtocol
