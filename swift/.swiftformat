@@ -1,4 +1,4 @@
---swiftversion 6.1
+--swift-version 6.2
 --enable acronyms
 --disable andOperator
 --enable anyObjectProtocol
@@ -6,9 +6,12 @@
 --enable assertionFailures
 --enable blankLineAfterImports
 --enable blankLineAfterSwitchCase
+--line-between-guards true
 --enable blankLinesAroundMark
 --enable blankLinesAtEndOfScope
+--type-blank-lines remove
 --enable blankLinesAtStartOfScope
+--type-blank-lines remove
 --enable blankLinesBetweenChainedFunctions
 --enable blankLinesBetweenImports
 --enable blankLinesBetweenScopes
@@ -53,7 +56,9 @@
 --marktypes always
 --markextensions always
 --enable modifierOrder
+--enable modifiersOnSameLine
 --disable noExplicitOwnership
+--enable noGuardInTests
 --enable numberFormatting
 --enable opaqueGenericParameters
 --disable organizeDeclarations
@@ -69,6 +74,7 @@
 --enable redundantInternal
 --enable redundantLet
 --enable redundantLetError
+--enable redundantMemberwiseInit
 --enable redundantNilInit
 --nilinit insert
 --enable redundantObjc
@@ -76,6 +82,7 @@
 --enable redundantParens
 --enable redundantPattern
 --enable redundantProperty
+--enable redundantPublic
 --enable redundantRawValues
 --enable redundantReturn
 --enable redundantSelf
@@ -88,6 +95,7 @@
 --closurevoid remove
 --enable semicolons
 --semicolons never
+--enable singlePropertyPerLine
 --enable sortDeclarations
 --enable sortImports
 --enable sortSwitchCases
@@ -105,10 +113,12 @@
 --enable spaceInsideParens
 --enable strongOutlets
 --enable strongifiedSelf
+--enable swiftTestingTestCaseNames
+--enable throwingTests
 --enable todos
 --enable trailingClosures
 --enable trailingCommas
---commas always
+--trailing-commas always
 --enable trailingSpace
 --trimwhitespace always
 --enable typeSugar
@@ -116,6 +126,7 @@
 --enable unusedArguments
 --stripunusedargs always
 --enable unusedPrivateDeclarations
+--enable urlMacro
 --enable void
 --enable wrap
 --maxwidth 120
