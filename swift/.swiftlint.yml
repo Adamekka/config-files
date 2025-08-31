@@ -23,6 +23,7 @@ disabled_rules:
   - function_default_parameter_at_end
   - function_parameter_count
   - identifier_name
+  - implicit_optional_initialization
   - implicitly_unwrapped_optional
   - line_length
   - missing_docs
@@ -33,8 +34,8 @@ disabled_rules:
   - number_separator
   - one_declaration_per_file
   - opening_brace
+  - prefer_condition_list
   - prefixed_toplevel_constant
-  - redundant_optional_initialization
   - redundant_self_in_closure
   - redundant_type_annotation
   - required_deinit
