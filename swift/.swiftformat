@@ -58,12 +58,16 @@
 --enable modifierOrder
 --enable modifiersOnSameLine
 --disable noExplicitOwnership
+--enable noForceTryInTests
+--enable noForceUnwrapInTests
 --enable noGuardInTests
 --enable numberFormatting
 --enable opaqueGenericParameters
 --disable organizeDeclarations
+--enable preferFinalClasses
 --enable preferForLoop
 --enable preferKeyPath
+--enable redundantAsync
 --enable redundantBackticks
 --enable redundantBreak
 --enable redundantClosure
@@ -88,6 +92,7 @@
 --enable redundantSelf
 --self insert
 --enable redundantStaticSelf
+--enable redundantThrows
 --enable redundantType
 --redundanttype explicit
 --enable redundantTypedThrows
@@ -114,7 +119,6 @@
 --enable strongOutlets
 --enable strongifiedSelf
 --enable swiftTestingTestCaseNames
---enable throwingTests
 --enable todos
 --enable trailingClosures
 --enable trailingCommas
