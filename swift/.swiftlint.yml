@@ -25,6 +25,7 @@ disabled_rules:
   - identifier_name
   - implicit_optional_initialization
   - implicitly_unwrapped_optional
+  - large_tuple
   - line_length
   - missing_docs
   - modifier_order
