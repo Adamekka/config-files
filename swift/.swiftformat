@@ -34,7 +34,7 @@
 --enable extensionAccessControl
 --extensionacl on-extension
 --enable fileHeader
---header \n {file}\n\n Copyright © {created.year} Adam Cvikl\n
+--header \n {file}\n\n Copyright © {created.year} Rivia Corp s.r.o.\n
 --enable genericExtensions
 --enable headerFileName
 --enable hoistAwait
