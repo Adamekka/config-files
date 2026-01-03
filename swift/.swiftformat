@@ -1,4 +1,4 @@
---swift-version 6.3
+--swift-version 6.4
 --enable acronyms
 --disable andOperator
 --enable anyObjectProtocol
@@ -79,6 +79,7 @@
 --enable redundantLet
 --enable redundantLetError
 --enable redundantMemberwiseInit
+--prefer-synthesized-init-for-internal-structs always
 --enable redundantNilInit
 --nilinit insert
 --enable redundantObjc
@@ -96,10 +97,12 @@
 --enable redundantType
 --redundanttype explicit
 --enable redundantTypedThrows
+--enable redundantViewBuilder
 --enable redundantVoidReturnType
 --closurevoid remove
 --enable semicolons
 --semicolons never
+--enable simplifyGenericConstraints
 --enable singlePropertyPerLine
 --enable sortDeclarations
 --enable sortImports
@@ -119,6 +122,7 @@
 --enable strongOutlets
 --enable strongifiedSelf
 --enable swiftTestingTestCaseNames
+--enable testSuiteAccessControl
 --enable todos
 --enable trailingClosures
 --enable trailingCommas
@@ -131,6 +135,7 @@
 --stripunusedargs always
 --enable unusedPrivateDeclarations
 --enable urlMacro
+--enable validateTestCases
 --enable void
 --enable wrap
 --maxwidth 120
@@ -151,8 +156,10 @@
 --enable wrapConditionalBodies
 --enable wrapEnumCases
 --wrapenumcases with-values
+--enable wrapFunctionBodies
 --enable wrapLoopBodies
 --enable wrapMultilineStatementBraces
+--enable wrapPropertyBodies
 --enable wrapSingleLineComments
 --disable wrapSwitchCases
 --disable yodaConditions
