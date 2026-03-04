@@ -6,6 +6,7 @@
 --enable assertionFailures
 --enable blankLineAfterImports
 --enable blankLineAfterSwitchCase
+--enable blankLinesAfterGuardStatements
 --line-between-guards true
 --enable blankLinesAroundMark
 --enable blankLinesAtEndOfScope
@@ -29,12 +30,15 @@
 --guardelse same-line
 --enable emptyBraces
 --emptybraces no-space
+--enable emptyExtensions
 --enable enumNamespaces
 --enumnamespaces always
+--enable environmentEntry
 --enable extensionAccessControl
 --extensionacl on-extension
 --enable fileHeader
 --header \n {file}\n\n Copyright © {created.year} Rivia Corp s.r.o.\n
+--enable fileMacro
 --enable genericExtensions
 --enable headerFileName
 --enable hoistAwait
@@ -51,6 +55,7 @@
 --enable isEmpty
 --enable leadingDelimiters
 --enable linebreakAtEndOfFile
+--enable linebreaks
 --linebreaks lf
 --enable markTypes
 --marktypes always
@@ -62,15 +67,23 @@
 --enable noForceUnwrapInTests
 --enable noGuardInTests
 --enable numberFormatting
+--hex-literal-case uppercase
 --enable opaqueGenericParameters
 --disable organizeDeclarations
+--enable preferCountWhere
+--disable preferExplicitFalse
 --enable preferFinalClasses
 --enable preferForLoop
 --enable preferKeyPath
+--enable preferSwiftTesting
+--enable privateStateVariables
+--enable propertyTypes
+--propertytypes explicit
 --enable redundantAsync
 --enable redundantBackticks
 --enable redundantBreak
 --enable redundantClosure
+--enable redundantEquatable
 --enable redundantExtensionACL
 --enable redundantFileprivate
 --enable redundantGet
@@ -92,7 +105,9 @@
 --enable redundantReturn
 --enable redundantSelf
 --self insert
+--enable redundantSendable
 --enable redundantStaticSelf
+--enable redundantSwiftTestingSuite
 --enable redundantThrows
 --enable redundantType
 --redundanttype explicit
@@ -158,8 +173,10 @@
 --wrapenumcases with-values
 --enable wrapFunctionBodies
 --enable wrapLoopBodies
+--disable wrapMultilineConditionalAssignment
+--enable wrapMultilineFunctionChains
 --enable wrapMultilineStatementBraces
 --enable wrapPropertyBodies
 --enable wrapSingleLineComments
 --disable wrapSwitchCases
---disable yodaConditions
+--enable yodaConditions
