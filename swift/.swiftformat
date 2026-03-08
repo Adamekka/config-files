@@ -99,7 +99,6 @@
 --enable redundantOptionalBinding
 --enable redundantParens
 --enable redundantPattern
---enable redundantProperty
 --enable redundantPublic
 --enable redundantRawValues
 --enable redundantReturn
@@ -112,6 +111,7 @@
 --enable redundantType
 --redundanttype explicit
 --enable redundantTypedThrows
+--enable redundantVariable
 --enable redundantViewBuilder
 --enable redundantVoidReturnType
 --closurevoid remove
