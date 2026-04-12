@@ -75,6 +75,7 @@
 --enable preferFinalClasses
 --enable preferForLoop
 --enable preferKeyPath
+--enable preferSwiftStringAPI
 --enable preferSwiftTesting
 --enable privateStateVariables
 --enable propertyTypes
@@ -83,6 +84,7 @@
 --enable redundantBackticks
 --enable redundantBreak
 --enable redundantClosure
+--enable redundantEmptyView
 --enable redundantEquatable
 --enable redundantExtensionACL
 --enable redundantFileprivate
@@ -168,6 +170,7 @@
 --typeattributes prev-line
 --storedvarattrs same-line
 --computedvarattrs same-line
+--enable wrapCaseBodies
 --enable wrapConditionalBodies
 --enable wrapEnumCases
 --wrapenumcases with-values
