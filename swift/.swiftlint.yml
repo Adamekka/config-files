@@ -48,4 +48,5 @@ disabled_rules:
   - trailing_comma
   - type_body_length
   - type_contents_order
+  - variable_shadowing
   - void_function_in_ternary
