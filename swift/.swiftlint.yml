@@ -1,6 +1,9 @@
 opt_in_rules:
   - all
 
+excluded:
+  - .build
+
 disabled_rules:
   - accessibility_label_for_image
   - accessibility_trait_for_button
