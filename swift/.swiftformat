@@ -70,11 +70,15 @@
 --hex-literal-case uppercase
 --enable opaqueGenericParameters
 --disable organizeDeclarations
+--enable preferContains
 --enable preferCountWhere
 --disable preferExplicitFalse
 --enable preferFinalClasses
+--enable preferFirstWhere
+--enable preferFlatMap
 --enable preferForLoop
 --enable preferKeyPath
+--enable preferMinOverSorted
 --enable preferSwiftStringAPI
 --enable preferSwiftTesting
 --enable privateStateVariables
@@ -109,6 +113,7 @@
 --enable redundantSendable
 --enable redundantStaticSelf
 --enable redundantSwiftTestingSuite
+--enable redundantSwiftUIGroup
 --enable redundantThrows
 --enable redundantType
 --redundanttype explicit
@@ -171,10 +176,12 @@
 --storedvarattrs same-line
 --computedvarattrs same-line
 --enable wrapCaseBodies
---enable wrapConditionalBodies
 --enable wrapEnumCases
+--enable wrapGuardStatementBodies
 --wrapenumcases with-values
 --enable wrapFunctionBodies
+--enable wrapIfExpressionBodies
+--enable wrapIfStatementBodies
 --enable wrapLoopBodies
 --disable wrapMultilineConditionalAssignment
 --enable wrapMultilineFunctionChains
