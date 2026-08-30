@@ -106,7 +106,7 @@
 --enable redundantParens
 --enable redundantPattern
 --enable redundantPublic
---enable redundantRawValues
+--disable redundantRawValues
 --enable redundantReturn
 --enable redundantSelf
 --self insert
