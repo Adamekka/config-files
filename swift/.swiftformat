@@ -31,6 +31,7 @@
 --enable emptyBraces
 --emptybraces no-space
 --enable emptyExtensions
+--disable ifExpressions
 --enable enumNamespaces
 --enumnamespaces always
 --enable environmentEntry
@@ -78,6 +79,7 @@
 --enable preferFlatMap
 --enable preferForLoop
 --enable preferKeyPath
+--enable preferLazyMap
 --enable preferMinOverSorted
 --enable preferSwiftStringAPI
 --enable preferSwiftTesting
@@ -90,6 +92,7 @@
 --enable redundantClosure
 --enable redundantEmptyView
 --enable redundantEquatable
+--enable redundantExtendedLifetime
 --enable redundantExtensionACL
 --enable redundantFileprivate
 --enable redundantGet
@@ -103,6 +106,7 @@
 --nilinit insert
 --enable redundantObjc
 --enable redundantOptionalBinding
+--redundant-optional-binding always
 --enable redundantParens
 --enable redundantPattern
 --enable redundantPublic
