@@ -67,6 +67,8 @@
 --enable noForceTryInTests
 --enable noForceUnwrapInTests
 --enable noGuardInTests
+--guard-like-if-statements convert
+--boolean-guards-in-tests convert
 --enable numberFormatting
 --hex-literal-case uppercase
 --enable opaqueGenericParameters
@@ -133,6 +135,7 @@
 --enable sortDeclarations
 --enable sortImports
 --enable sortSwitchCases
+--locale en_US
 --enable sortTypealiases
 --enable spaceAroundBraces
 --enable spaceAroundBrackets
